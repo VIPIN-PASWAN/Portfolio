@@ -216,21 +216,39 @@ p {
 }
 
 @media (max-width: 780px) {
+
+  h2{
+    font-size: 1.8rem !important;
+  }
+
   .top-box {
     position: relative;
     margin: 0%;
-    padding: 12% 0% 2%;
+    padding: 20% 1% 2% !important;
   }
 
   .top-box {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .sign {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .box-1 {
+    padding: 10% 15% 5%;
+    line-height: 1.5;
+  }
+
+  .PP{
+    width: 100px;
+  }
+
+  .top-text p {
+    font-size: 0.6rem;
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .apj-img {
@@ -241,5 +259,9 @@ p {
   .stv-img {
     width: 75%;
     border-radius: 100%;
+  }
+
+  .btn{
+    font-size: .7rem !important;
   }
 }
